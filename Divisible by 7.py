@@ -3,7 +3,7 @@
 
 nl=[]
 
-for n in range(2000, 3200):
+for n in range(2000, 6200):
     if (n%7==0) and (n%5!=0):
         nl.append(str(n))
 print (','.join(nl))
